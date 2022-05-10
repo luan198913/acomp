@@ -1,4 +1,12 @@
 [[package]]
+name = "merge"
+version = "1.0.0"
+description = "A simple function of merge-sort"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "numpy"
 version = "1.22.3"
 description = "NumPy is the fundamental package for array computing with Python."
@@ -9,9 +17,12 @@ python-versions = ">=3.8"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "991972e7eb4f72b3a3746f926020830f54fa7944291e4c402ae7fe9d9c3968d4"
+content-hash = "803c28c1ceb21f57ed6713686880db4074439ed1ea092d6bad084431aecd3e83"
 
 [metadata.files]
+merge = [
+    {file = "merge-1.0.0.zip", hash = "sha256:bfed27837437feedf818bf7306cc58a33f5fbee73b524579f0c1bdf01c6adc70"},
+]
 numpy = [
     {file = "numpy-1.22.3-cp310-cp310-macosx_10_14_x86_64.whl", hash = "sha256:92bfa69cfbdf7dfc3040978ad09a48091143cffb778ec3b03fa170c494118d75"},
     {file = "numpy-1.22.3-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:8251ed96f38b47b4295b1ae51631de7ffa8260b5b087808ef09a39a9d66c97ab"},
