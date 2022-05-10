@@ -1,5 +1,5 @@
-import merge
-merge.main()
+import quick
+quick.main()
 
 
 
